@@ -3,17 +3,11 @@
 -- https://www.mathsisfun.com/prime-factorization.html
 
 module Euler.Problems.Group1To50.P3 (
-    primeFactors
+    largestPrimeFactor
 ) where
 
-import Euler.Utils.Math.Prime
+import Euler.Utils.Math.Prime(primeFactors)
 
 
--- get last of this for answer
-primeFactors :: Int -> [Int]
-primeFactors n = 
-    let modN x   = n `mod` x == 0
-        factor   = head $ filter modN primesInfinite
-        quotient = n `div` factor
-        recurse  = factor: primeFactors quotient
-    in (if n == factor then [factor] else recurse)
+largestPrimeFactor :: Int -> Int
+largestPrimeFactor n = last $ primeFactors n

@@ -5,7 +5,7 @@ module Euler.Problems.Group1To50.P2 (
     sumFibEven
 ) where
 
-import Euler.Utils.Math.Fibonacci
+import Euler.Utils.Math.Fibonacci(fibonacciInfinite)
 
 
 sumFibEven :: Int -> Int
