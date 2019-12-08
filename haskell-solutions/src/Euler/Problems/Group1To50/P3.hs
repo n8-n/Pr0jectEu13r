@@ -1,12 +1,13 @@
+-- Problem 3:
+-- What is the largest prime factor of the number 600851475143?
+-- https://www.mathsisfun.com/prime-factorization.html
+
 module Euler.Problems.Group1To50.P3 (
     primeFactors
 ) where
 
 import Euler.Utils.Math.Prime
 
--- Problem 3:
--- What is the largest prime factor of the number 600851475143?
--- https://www.mathsisfun.com/prime-factorization.html
 
 -- get last of this for answer
 primeFactors :: Int -> [Int]
