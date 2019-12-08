@@ -1,4 +1,4 @@
-module Euler.Problems.FirstHundred.P4 (
+module Euler.Problems.Group1To50.P4 (
     isPalindromeNumber,
     palindromeNumbers3Digits
 ) where

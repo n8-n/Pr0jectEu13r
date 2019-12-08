@@ -1,4 +1,4 @@
-module Euler.Problems.FirstHundred.P2 (
+module Euler.Problems.Group1To50.P2 (
     sumFibEven
 ) where
 

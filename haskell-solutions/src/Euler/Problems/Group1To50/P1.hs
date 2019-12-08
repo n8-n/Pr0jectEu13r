@@ -1,4 +1,4 @@
-module Euler.Problems.FirstHundred.P1 (
+module Euler.Problems.Group1To50.P1 (
     sumMultiples3or5
 ) where
 

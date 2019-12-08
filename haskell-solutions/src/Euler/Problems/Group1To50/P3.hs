@@ -1,4 +1,4 @@
-module Euler.Problems.FirstHundred.P3 (
+module Euler.Problems.Group1To50.P3 (
     primeFactors
 ) where
 
