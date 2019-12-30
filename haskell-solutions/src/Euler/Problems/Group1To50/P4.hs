@@ -1,11 +1,12 @@
-module Euler.Problems.FirstHundred.P4 (
+-- Problem 4:
+-- Find the largest palindrome made from the product of two 3-digit numbers.
+
+module Euler.Problems.Group1To50.P4 (
     isPalindromeNumber,
     palindromeNumbers3Digits
 ) where
 
 
--- Problem 4:
--- Find the largest palindrome made from the product of two 3-digit numbers.
 palindromeNumbers3Digits :: Int
 palindromeNumbers3Digits = 
     let range = numberProducts 100 999
